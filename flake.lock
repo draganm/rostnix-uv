@@ -1,0 +1,85 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1791426274,
+        "narHash": "sha256-MWhktfFtFE8Jl7bf9Pkp7TR5MSdYCjCswSo0Gkb4ywc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7c8764b7c7b09b34f632464276218ef9090eaa11",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-26.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "rostnix": "rostnix",
+        "systems": "systems",
+        "uv-src": "uv-src"
+      }
+    },
+    "rostnix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "systems": [
+          "systems"
+        ]
+      },
+      "locked": {
+        "lastModified": 1791573572,
+        "narHash": "sha256-IPt/Noe1oQKgJ0uXtnk5siIdtsqYD55Grxp3QJFjXDE=",
+        "owner": "draganm",
+        "repo": "rostnix",
+        "rev": "a1b1b56af4694a87739dc2bff24418cc37b14bb0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "draganm",
+        "repo": "rostnix",
+        "type": "github"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1791244623,
+        "narHash": "sha256-uuanbkFk8a313Zfrxdcz8Us/yQtaxNnKJtX8v0ZPpd8=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "d36eeed142f88b5a636f2e3856a53c61654cf29b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "uv-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1786734994,
+        "narHash": "sha256-tKdqciPQnteeTqkXtWY8mliWUDv5gMdU8x0UPadQZlQ=",
+        "owner": "astral-sh",
+        "repo": "uv",
+        "rev": "210d1f6785e95a8c8c0d53e284408c9be1134700",
+        "type": "github"
+      },
+      "original": {
+        "owner": "astral-sh",
+        "ref": "0.12.5",
+        "repo": "uv",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
